@@ -1,0 +1,235 @@
+:root {
+    --dark: #000000;
+    --white: #ffffff;
+    --primary: #ffc107;
+    --Secundary: #0097a7;
+    --gray: #757575;
+    --green: #3a5a40;
+}
+
+.raleway {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+html {
+    font-size: 62.5%;
+    background-color: #f5f1e5;
+}
+
+body {
+    font-size: 16px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+h2 {
+    font-family: 'Brush Script Mt',cursive;
+    font-size: 2em;
+    text-align: center;
+    color:var(--dark);
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: var(--green);
+}
+
+p {
+    font-family: "Raleway";
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: center; 
+    width: 80%;
+    margin: 0 auto;
+    gap: 40px; 
+    color: var(--green);
+}
+
+.location {
+    text-align: center;
+    padding: 20px;
+    text-transform: uppercase;
+    flex: 1; /* Hace que ambos divs ocupen el mismo espacio */
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+.cuadro {
+    border: 2px solid var(--green);
+    padding: 10px 10px;
+    text-transform: uppercase;
+    justify-content: center;
+}
+
+.cuadro:hover {
+    background-color: var(--green);
+    color: var(--white);
+}
+.location h2 {
+    white-space: nowrap;
+}
+
+
+.location-info {
+    display: block;
+    margin: 20px 0;
+    font-size: 1em;
+    color: var(--text-color);
+    text-decoration: none; 
+    line-height: 1.5;
+}
+
+.location-info:hover {
+    color: var(--green);
+}
+
+/* Ajustes para el contenedor de la imagen */
+img {
+    margin: 20px 0;
+    max-width: 100%;
+    height: auto;
+}
+
+    .story-container {
+        width: 80%;
+        margin: 0 auto;
+        padding: 20px;
+        line-height: 1.6;
+
+    }
+    
+    .story-title {
+        font-family: 'Brush Script Mt',cursive;
+        font-size: 2em;
+        text-align: center;
+        color:var(--dark);
+        margin-bottom: 20px;
+    }
+    
+    .story-text {
+        font-size: 1.1em;
+        margin-bottom: 15px;
+        text-align: left;
+        font-family: "Raleway", sans-serif;
+    }
+    
+    .story-link {
+        color: #006b3d; 
+        text-decoration: none;
+    }
+    
+
+    .rewards-container {
+        width: 80%;
+        margin: 0 auto;
+        padding: 20px;
+        text-align: center;
+        color: var(--green); 
+    }
+    
+    .rewards-title {
+        color: var(--dark);
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    
+    .rewards-item {
+        font-size: 1.2em;
+        margin: 10px 0;
+        font-weight: normal;
+        color:var(--green); 
+    }
+
+    .email a {
+        background-color: #337044;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        border-radius: 25px;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+    }
+    
+    .email a:hover {
+        background-color: #5b8b64;
+    }
+    
+    .rewards-item:last-child {
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .video-section {
+        text-align: center;
+        margin: 20px 0;
+    }
+    
+    .texto-descripcion {
+        width: 1010px;
+        margin: 20px auto;
+        font-size: 1.1em;
+        line-height: 1.6;
+        text-align: justify;
+    }
+    
+    .imagenes-section {
+        width: 1010px;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        margin: 20px auto;
+    }
+    
+    .imagenes-section img {
+        width: 49%; 
+        height: auto;
+    }
+
+
+
+    /* iconos */
+    .social-icons {
+        margin-top: 50px;
+    }
+    .social-icons a {
+        margin: 0 15px;
+        display: inline-block;
+    }
+    .icon {
+        color: #000000; /* Color negro */
+    }
+
+    .icon :hover{
+        color: #337044;
+    }
+
+    .email-list {
+        margin-top: 2px;
+        font-size: 18px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+
+
+.footer-content {
+    display: grid;
+    max-width: 1010px;
+   
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas */
+    grid-template-rows: repeat(2, 1fr); /* 2 filas */
+    gap: 10px; /* Espacio entre elementos */
+}
+
+.footer-content img {
+    padding-left: 250px;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+
